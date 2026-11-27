@@ -26,7 +26,7 @@ int main(void) {
     char vigenereKey2[] = "RealKey";
 
     int shiftKey1 = 99;
-    char vigenereKey2[] = "tempkey";
+    char vigenereKey2[] = "RealKey";
 
     decryptLayer1(ciphertext, shiftKey1);
     decryptLayer2(ciphertext, vigenereKey2);
