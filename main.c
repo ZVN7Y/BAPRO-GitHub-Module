@@ -23,9 +23,9 @@ void decryptLayer2(char *text, const char *key) {
     }
 }
 int main(void) {
-    char vigenereKey2[] = "RealKey";
+    char ciphertext[] = "Avrrybde vq Mbbs Zpqoyz";
 
-    int shiftKey1 = 99;
+    int shiftKey1 = 3;
     char vigenereKey2[] = "RealKey";
 
     decryptLayer1(ciphertext, shiftKey1);
